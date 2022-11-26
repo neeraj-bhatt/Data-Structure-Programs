@@ -12,16 +12,16 @@ class Node{
     }
 };
 
-void printll(Node* head)
+void printll(Node* p)
 {
-    if(head == NULL)
+    if(p == NULL)
         cout << "There is no Linked List" << endl;
     else
     {
-        while(head != NULL)
+        while(p != NULL)
         {
-            cout << head->val << " ";
-            head = head->next;
+            cout << p->val << " ";
+            p = p->next;
         }
     }
 }

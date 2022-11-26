@@ -22,7 +22,7 @@ void printll(Node* head)
         }
         cout << endl;
     }
-} 
+}
 
 int main()
 {
