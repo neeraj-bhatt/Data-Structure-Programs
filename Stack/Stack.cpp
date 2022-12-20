@@ -2,8 +2,8 @@
 using namespace std;
 class Stack{
     int top;
-    public:
     int count;
+    public:
     Stack(){}
     Stack(int c){
         count = c;
@@ -49,7 +49,7 @@ int  main()
     cout << "Enter the capacity of Stack : ";
     cin >> capacity;
     Stack obj(capacity);
-    int stack[obj.count];
+    int stack[capacity];
     while(true){
         cout << "Select From the following Choices" << endl;
         cout << "1.Push\n2.Pop\n3.Display\n4.exit"<< endl;
