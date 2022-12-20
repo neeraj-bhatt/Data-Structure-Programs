@@ -53,7 +53,7 @@ void Stack :: display(){
         cout << "Empty";
     else{
         while(p!=NULL){
-            cout << p->data << " ";
+            cout << "\n" << p->data;
             p = p->next;
         }
     }
